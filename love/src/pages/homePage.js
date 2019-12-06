@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import Fullscreen from '../components/common/Fullscreen';
 import Relative from '../components/common/Relative';
 
-const Container = styled(Centered)`
+const Container = styled`
   position: relative;
   width: 100%;
   height: 100vh;
@@ -14,13 +14,6 @@ const Container = styled(Centered)`
   max-width: 1280px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
-  ${media.tablet`
-  display: block;
-  flex-direction: column;
-  margin-top: 6rem;
-  margin-bottom: 8rem;
-  height: initial;
-`};
 `;
 const Message = styled.h2`
   text-align: center;
@@ -54,12 +47,12 @@ class HomePage extends Component {
                     
                 </Container>
             </Fullscreen>
-            <Centered horizontal>
+            {/* <Centered horizontal>
                 <Message>
                     CodeSandbox is an online editor that helps you create web
                     applications, from prototype to deployment.
                 </Message>
-            </Centered>
+            </Centered> */}
         </Relative>
       );
     }
