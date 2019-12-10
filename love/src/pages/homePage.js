@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import Fullscreen from '../components/common/Fullscreen';
 import Relative from '../components/common/Relative';
 
-const Container = styled`
+const Container = styled.div`
   position: relative;
   width: 100%;
   height: 100vh;
