@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import Fullscreen from '../components/common/Fullscreen';
 import Relative from '../components/common/Relative';
 
@@ -15,18 +15,18 @@ const Container = styled.div`
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 `;
-const Message = styled.h2`
-  text-align: center;
-  font-weight: 200;
-  color: white;
-  font-size: 2.5rem;
-  max-width: 1000px;
-  line-height: 1.2;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-`;
+// const Message = styled.h2`
+//   text-align: center;
+//   font-weight: 200;
+//   color: white;
+//   font-size: 2.5rem;
+//   max-width: 1000px;
+//   line-height: 1.2;
+//   margin-bottom: 3rem;
+//   margin-top: 3rem;
+//   margin-right: 2rem;
+//   margin-left: 2rem;
+// `;
 class HomePage extends Component {
     constructor(props) {
       super(props);
@@ -44,7 +44,7 @@ class HomePage extends Component {
                     setCanvas={this.setCanvas}
                 /> */}
                 <Container horizontal>
-                    
+                    1
                 </Container>
             </Fullscreen>
             {/* <Centered horizontal>
