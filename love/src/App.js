@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-// import { Button } from 'antd'
-// import './App.css';
 import {
   HashRouter as Router,
   Route,
-  Link
 } from "react-router-dom";
 import routes from "./routes";
-import './App.css';
+import Header from "./components/Header"
+import './App.css'
 function RouteWithSubRoutes(route) {
   return (
     <Route
@@ -21,19 +19,17 @@ function RouteWithSubRoutes(route) {
 class App extends Component {
   render() {
     return (
-      <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">index</Link>
-          </li>
-        </ul>
-
-        {routes.map((route, i) => (
-          <RouteWithSubRoutes key={i} {...route} />
-        ))}
-      </div>
-    </Router>
+      <section>
+        <Header></Header>
+        <Router>
+          <div>
+            {routes.map((route, i) => (
+              <RouteWithSubRoutes key={i} {...route} />
+            ))}
+          </div>
+        </Router>
+      </section>
+      
     );
   }
 }
