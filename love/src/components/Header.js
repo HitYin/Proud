@@ -1,4 +1,7 @@
 import React,{ Component } from 'react';
+import {
+    Link
+  } from "react-router-dom";
 import styled from 'styled-components'
 const Container = styled.div`
   width: 100%;
@@ -20,7 +23,14 @@ class Header extends Component{
     render(){
         return(
             <Container>
-                
+                    <ul>
+                        <li>
+                            <Link to="/">page</Link>
+                        </li>
+                        <li>
+                            <Link to="/record">record</Link>
+                        </li>
+                    </ul>
             </Container>
         )
     }
