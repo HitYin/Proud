@@ -1,24 +1,39 @@
-
-
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0
 }
 
-.App-logo {
-  height: 40vmin;
+body, html{
+  width: 100%;
+  height: 100%;
+  font-family:"Microsoft YaHei","Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-size: 12px;
+}
+a,img,button,div,fieldset,form,h1,h2,h3,h4,h5,h6,img,input,li,menu,ol,p,textarea,ul,figure,dl,dt,dd {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline:none;
+  font-weight: 400;
+}
+h5{
+  font-size: 12px;
+  font-family: MicrosoftYaHei;
+}
+ul, ol {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  border: 0;
+  vertical-align: middle;
 }
 
-.App-link {
-  color: #09d3ac;
+
+a {
+  text-decoration: none
 }

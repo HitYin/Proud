@@ -25,7 +25,7 @@ class Header extends Component{
             <Container>
                     <ul>
                         <li>
-                            <Link to="/">page</Link>
+                            <Link to="/index">page</Link>
                         </li>
                         <li>
                             <Link to="/record">record</Link>
